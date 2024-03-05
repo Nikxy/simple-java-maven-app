@@ -26,4 +26,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: nikxy/my-app:latest
-          build-args: "VERSION=${{github.run_number}}"
+          build-args: "VERSION=1.0.${{github.run_number}}"
